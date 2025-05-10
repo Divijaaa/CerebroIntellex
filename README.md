@@ -23,9 +23,11 @@
 
 
 📊 Run Jupyter Notebooks
+
 Open notebooks under Model_code/Classification/, Segmentation/, or Prediction/ to train or evaluate models.
 
 🎯 Pretrained Models
+
 models/CnnCTImage97.h5: CNN model trained on CT scans (97% accuracy)
 
 models/stroke_prediction_model.joblib: Structured data ML model
