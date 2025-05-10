@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images - Stroke Classification</title>
+    <link rel="stylesheet" href="/Pages/Upload_image_page/upload.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h2>Upload the images for Stroke Classification</h2>
+
+        <!-- Tab Switcher -->
+        <div class="tab-container">
+            <div class="tab-switch">
+                <div class="tab-option active" id="ctTab" onclick="switchTab('CT')">CT</div>
+                <div class="tab-option" id="mriTab" onclick="switchTab('MRI')">MRI</div>
+            </div>
+        </div>        
+
+        <!-- Upload Box -->
+        <div class="upload-box" id="uploadBox" onclick="triggerUpload()">
+            <p>Insert an image</p>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="handleFileUpload(event)">
+        </div>
+
+        <!-- Next Button -->
+        <button class="btn" id="nextButton">NEXT</button>
+    </div>
+
+    <script src="/Pages/Upload_image_page/upload.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.prediction-text,
+.probability-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+#uploadedImage {
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: none;
+}
+
+.classification p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 300px;  /* Adjust as needed */
+    height: auto;
+    border-radius: 10px;
+}
+
+.prediction-details {
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Add styling for the MRI segmentation button */
+.segmentation-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 10px; /* Adjust gap between image and button */
+}
+
+#mriSegmentationButton {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745; /* Green for segmentation */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none; /* Default to hidden */
+}
+
+#mriSegmentationButton:hover {
+    background-color: #218838;
+}
+
+.image-type {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
