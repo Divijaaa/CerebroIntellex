@@ -7,7 +7,7 @@
 ## 📌 Key Features
 
 - 🔬 **CT & MRI Stroke Classification**  
-  Classifies ischemic and hemorrhagic strokes using CNN-based models trained on medical imaging datasets.
+  Classifies ischemic,hemorrhagic stroke and normal MRI and CT scan images using CNN-based models trained on medical imaging datasets.
 
 - 🧠 **MRI Lesion Segmentation**  
   Uses Python scripts to segment ischemic and hemorrhagic regions from MRI scans for enhanced clinical insight.
